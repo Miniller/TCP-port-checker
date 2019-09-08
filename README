@@ -25,7 +25,7 @@ Also sorry that the program freezes while waiting for a response. This is not go
 
 But what if we get TCP Down when it's not? Well, this can't happen. This could only happen if we're using a VPN or Proxy, that the server blocks, but we still get a response like ,,hey your IP is not allowed'' so basically there is no way that we don't get a response. This is a good thing.
 Even if we're talking about a website, and it's not available in our country, it's programmed to write something, like it's not available in my country.
-Actually I can't get the response, I tried, but it failed. This is a bit interesting, because it won't time out if we don't want the response, but if we want it, it times out. Probably my IP was blocked or it had a firewall, or something..
+Now let's move on, could we get what response we get from the server? Actually I can't get the response, I tried, but it failed. This is a bit interesting, because it won't time out if we don't want the response, but if we want it, it times out. Probably my IP was blocked or it had a firewall, or something..
 
 Well, have fun using my program. Just launch it up every time you get back home to see if your favorite game server is open or not.
 Also, UDP port checker is not really possible. For example, if we have to open 25566 UDP port opened in order to have a.. minecraft server (just an example), then the program still wouldn't get a response, but a Minecraft client would be able to connect.
