@@ -1,0 +1,32 @@
+WTFPL license. http://www.wtfpl.net/
+Publishing another version of the software or any of its components is allowed if the name is changed.
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+                    Version 2, December 2004 
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+ Everyone is permitted to copy and distribute verbatim or modified 
+ copies of this license document, and changing it is allowed as long 
+ as the name is changed. 
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+Alright, now to the program. Basically you can check if a TCP port is opened on a host.
+Let's do a tutorial.
+First, we open up CMD and type ping -websitename.com-. I'm using example.com. So the command is ping example.com
+If we get response, that means that our TCP port checker should work, as the port must be opened on TCP in order for the website to work. So open up the program,
+then write the following: example.comipaddress:80 (for privacy reasons, I'm not writing the IP address itself.) It will instantly write Port open.
+But if we do example.comipaddress:25565, to check if a Minecraft server is opened on that host, we will have to wait for 30 seconds and we will get ,,TCP server down, couldn't connect''. This can mean two things: The server is temporary down, or the port is closed. Also, it's waiting for 30 seconds to get a response. If the server is under attack, we won't get a response, because it's slow. If the port is not opened, then we still have to wait for 30 seconds. So if you know that example.com doesn't have a minecraft server, then you know why it writes down. If you don't know, assume that the port is closed. For example, there are antibot plugins for minecraft servers (also antiddos systems for websites, etc.), and we can still connect to the server. That is because it denys the connection from the bot, so they won't stress the server. Also, you need to have a strong internet/VPS, or it will still slow down due to the amount of connections.
+So, basically this has nothing to do with the program. This was just proving that if we don't get a response, the port is usually not opened.
+Also sorry that the program freezes while waiting for a response. This is not going to be fixed.
+
+
+But what if we get TCP Down when it's not? Well, this can't happen. This could only happen if we're using a VPN or Proxy, that the server blocks, but we still get a response like ,,hey your IP is not allowed'' so basically there is no way that we don't get a response. This is a good thing.
+Even if we're talking about a website, and it's not available in our country, it's programmed to write something, like it's not available in my country.
+Actually I can't get the response, I tried, but it failed. This is a bit interesting, because it won't time out if we don't want the response, but if we want it, it times out. Probably my IP was blocked or it had a firewall, or something..
+
+Well, have fun using my program. Just launch it up every time you get back home to see if your favorite game server is open or not.
+Also, UDP port checker is not really possible. For example, if we have to open 25566 UDP port opened in order to have a.. minecraft server (just an example), then the program still wouldn't get a response, but a Minecraft client would be able to connect.
+Sorry if I'm wrong about some things, I try my best explaining everything. And as I wrote earlier, Have fun!
